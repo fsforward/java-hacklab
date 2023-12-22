@@ -26,7 +26,7 @@ public class Main {
         secondsBetween1 = scanner.nextInt();
 
         distance1 = secondsBetween1 * METERS_PER_SEC;
-        System.out.println("Distance to lightning: " + distance1 + " " + measurement);
+        System.out.println("Distance to lightning: " + distance1 + measurement);
 
         if (secondsBetween2 != 0) {
           speed = (double) (distance1 - distance2) / (secondsBetween1 - secondsBetween2);
